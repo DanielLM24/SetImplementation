@@ -1,3 +1,8 @@
+/**
+ * @author Peter Bennett/Daniel Lara
+ *
+ */
+
 import java.util.Set;
 
 public class Database<E> {
