@@ -1,6 +1,5 @@
 import java.util.Set;
 
-
 public class Database<E> {
 	Set<E> java;
 	Set<E> web;
