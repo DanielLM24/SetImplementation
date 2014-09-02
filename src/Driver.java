@@ -157,7 +157,6 @@ public class Driver {
 
 	public static <E> void subconjunto(Database<E> organizador){
 		for(E s:organizador.getJava()){
-			System.out.println(s);
 			if(!organizador.getMovil().contains(s)){
 				System.out.println("El conjunto de programadores de Java no es subconjunto de Web.");
 				return;
@@ -196,6 +195,9 @@ public class Driver {
 		for(E s:organizador.getMovil())
 			System.out.println(s + "\n");
 			break;
+		default:
+			System.out.println("No hay un conjunto mas grande.");
+			break;
 		}
 	}
 	
@@ -232,6 +234,9 @@ public class Driver {
 				ordenado.add(s);
 		System.out.println(ordenado.tailSet(ordenado.first(),true));			
 		break;
+		default:
+			System.out.println("No hay un conjunto mas grande.");
+			break;
 		}
 	}
 	
